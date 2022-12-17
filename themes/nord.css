@@ -1,0 +1,269 @@
+/* Color palette */
+/* https://www.nordtheme.com/docs/colors-and-palettes */
+
+/* Window */
+QWidget {
+    background-color: #2e3440;
+    color: #d8dee9;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+/* Text */
+QLabel {
+    color: #d8dee9;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #3b4252;
+    color: #d8dee9;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* Buttons:hover */
+QPushButton:hover {
+    background-color: #434c5e;
+    color: #d8dee9;
+    border: 1px solid #434c5e;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* Buttons:pressed */
+QPushButton:pressed {
+    background-color: #4c566a;
+    color: #d8dee9;
+    border: 1px solid #4c566a;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* Buttons:disabled */
+QPushButton:disabled {
+    background-color: #3b4252;
+    color: #4c566a;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* LineEdit */
+QLineEdit {
+    background-color: #3b4252;
+    color: #d8dee9;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* LineEdit:hover */
+QLineEdit:hover {
+    background-color: #434c5e;
+    color: #d8dee9;
+    border: 1px solid #434c5e;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* LineEdit:focus */
+QLineEdit:focus {
+    background-color: #4c566a;
+    color: #d8dee9;
+    border: 1px solid #4c566a;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* LineEdit:disabled */
+QLineEdit:disabled {
+    background-color: #3b4252;
+    color: #4c566a;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* ComboBox */
+QComboBox {
+    background-color: #3b4252;
+    color: #d8dee9;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* ComboBox:hover */
+QComboBox:hover {
+    background-color: #434c5e;
+    color: #d8dee9;
+    border: 1px solid #434c5e;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* ComboBox:focus */
+QComboBox:focus {
+    background-color: #4c566a;
+    color: #d8dee9;
+    border: 1px solid #4c566a;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* ComboBox:disabled */
+QComboBox:disabled {
+    background-color: #3b4252;
+    color: #4c566a;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBar */
+QMenuBar {
+    background-color: #3b4252;
+    color: #d8dee9;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBar:hover */
+QMenuBar:hover {
+    background-color: #434c5e;
+    color: #d8dee9;
+    border: 1px solid #434c5e;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBar:focus */
+QMenuBar:focus {
+    background-color: #4c566a;
+    color: #d8dee9;
+    border: 1px solid #4c566a;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBar:disabled */
+QMenuBar:disabled {
+    background-color: #3b4252;
+    color: #4c566a;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* Menu */
+QMenu {
+    background-color: #3b4252;
+    color: #d8dee9;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* Menu:hover */
+QMenu:hover {
+    background-color: #434c5e;
+    color: #d8dee9;
+    border: 1px solid #434c5e;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* Menu:focus */
+QMenu:focus {
+    background-color: #4c566a;
+    color: #d8dee9;
+    border: 1px solid #4c566a;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* Menu:disabled */
+QMenu:disabled {
+    background-color: #3b4252;
+    color: #4c566a;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBarItem */
+QMenuBarItem {
+    background-color: #3b4252;
+    color: #d8dee9;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBarItem:hover */
+QMenuBarItem:hover {
+    background-color: #434c5e;
+    color: #d8dee9;
+    border: 1px solid #434c5e;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBarItem:focus */
+QMenuBarItem:focus {
+    background-color: #4c566a;
+    color: #d8dee9;
+    border: 1px solid #4c566a;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBarItem:disabled */
+QMenuBarItem:disabled {
+    background-color: #3b4252;
+    color: #4c566a;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBarEmptyArea */
+QMenuBarEmptyArea {
+    background-color: #3b4252;
+    color: #d8dee9;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBarEmptyArea:hover */
+QMenuBarEmptyArea:hover {
+    background-color: #434c5e;
+    color: #d8dee9;
+    border: 1px solid #434c5e;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBarEmptyArea:focus */
+QMenuBarEmptyArea:focus {
+    background-color: #4c566a;
+    color: #d8dee9;
+    border: 1px solid #4c566a;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+/* MenuBarEmptyArea:disabled */
+QMenuBarEmptyArea:disabled {
+    background-color: #3b4252;
+    color: #4c566a;
+    border: 1px solid #3b4252;
+    border-radius: 4px;
+    padding: 3px;
+}
+

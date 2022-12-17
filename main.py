@@ -32,6 +32,9 @@ class Window(QMainWindow):
 
         self.setCentralWidget(self.widget)
 
+        self.dark_theme()
+        self.CreateMenu()
+
         self.show()
 
     def CreateLayout(self):
@@ -71,12 +74,43 @@ class Window(QMainWindow):
         for selecteditem in self.listwidget.selectedItems():
             self.listwidget.takeItem(self.listwidget.row(selecteditem))
 
-    # add task with enter
+    # add task with enter or button
     def keyPressEvent(self, event):
-        if event.key() == Qt.Key_Enter:
+        if event.key() == Qt.Key_Return:
             self.AddTask()
 
+    # created a nord theme for PyQt5
+    def dark_theme(self):
+        style = open("themes/nord.css", "r")
+        style = style.read()
+        self.setStyleSheet(style)
+
+
+    # created a menu bar in which you can choose the theming
+    def CreateMenu(self):
+        mainMenu = self.menuBar()
+        fileMenu = mainMenu.addMenu("File")
+        viewMenu = mainMenu.addMenu("Themes")
+        helpMenu = mainMenu.addMenu("Help")
+
+        exitButton = QAction("Exit", self)
+        exitButton.setShortcut("Ctrl+Q")
+        exitButton.triggered.connect(self.close)
+        fileMenu.addAction(exitButton)
+
+        darkTheme = QAction("Nord", self)
+        darkTheme.triggered.connect(self.dark_theme)
+        viewMenu.addAction(darkTheme)
+
+        aboutButton = QAction("About", self)
+        aboutButton.triggered.connect(self.About)
+        helpMenu.addAction(aboutButton)
+
+    # created a message box with information about the application
+    def About(self):
+        QMessageBox.about(self, "About", "A Python project created in order to learn PyQt5. The application is a simple to-do list. The application is created by @czky.")
 
 App = QApplication(sys.argv)
 window = Window()
 sys.exit(App.exec())
+
